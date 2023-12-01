@@ -1,3 +1,3 @@
 require("kourtet.lazy")
-require("kourtet.global")
 require("kourtet.remap")
+require("kourtet.set")

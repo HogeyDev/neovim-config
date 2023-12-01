@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 
 -- makefile
-vim.keymap.set("n", "<leader>mm", vim.cmd.mak)
+vim.keymap.set("n", "<leader>mm", ":Telescope make<CR>", { silent = true })
 
 -- neo-tree
 vim.keymap.set("n", "<leader>o", ":Neotree focus<CR>", { silent = true })
@@ -21,3 +21,6 @@ vim.keymap.set("n", "<leader>gg", ":Git add .<CR> <BAR> :Git commit<CR>", { sile
 vim.keymap.set("n", "<leader>tf", ":ToggleTerm direction=float<CR>", { silent = true })
 vim.keymap.set("n", "<leader>th", ":ToggleTerm size=10 direction=horizontal<CR>", { silent = true })
 vim.keymap.set("n", "<leader>tv", ":ToggleTerm size=80 direction=vertical<CR>", { silent = true })
+
+-- telescope
+vim.keymap.set("n", "<leader>f", ":Telescope live_grep<CR>", { silent = true })

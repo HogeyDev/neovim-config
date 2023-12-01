@@ -67,4 +67,14 @@ require("lazy").setup({
 	},
 	'tpope/vim-fugitive',
 	'akinsho/toggleterm.nvim',
+	{
+		'sopa0/telescope-makefile',
+		dependencies = {
+			'akinsho/nvim-toggleterm.lua',
+		}
+	},
+	{
+	'nvim-telescope/telescope.nvim', tag = '0.1.4',
+		dependencies = { 'nvim-lua/plenary.nvim' }
+	}
 })
