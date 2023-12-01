@@ -1,0 +1,8 @@
+require("kourtet.global")
+require("kourtet.lazy")
+require("kourtet.lsp")
+require("kourtet.lualine")
+require("kourtet.mason")
+require("kourtet.neotree")
+require("kourtet.remap")
+require("kourtet.treesitter")
