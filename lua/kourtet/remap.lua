@@ -15,4 +15,4 @@ vim.keymap.set("n", "<leader>q", ":qa<CR>", { silent = true })
 -- vim fugitive
 vim.keymap.set("n", "<leader>ga", ":Git add .<CR>", { silent = true })
 vim.keymap.set("n", "<leader>gc", ":Git commit<CR>", { silent = true })
-vim.keymap.set("n", "<leader>gA", "gagC<CR>", { silent = true })
+vim.keymap.set("n", "<leader>gA", ":Git add .<CR> <BAR> :Git commit<CR>", { silent = true })
