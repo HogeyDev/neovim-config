@@ -16,3 +16,8 @@ vim.keymap.set("n", "<leader>q", ":qa<CR>", { silent = true })
 vim.keymap.set("n", "<leader>ga", ":Git add .<CR>", { silent = true })
 vim.keymap.set("n", "<leader>gc", ":Git commit<CR>", { silent = true })
 vim.keymap.set("n", "<leader>gg", ":Git add .<CR> <BAR> :Git commit<CR>", { silent = true })
+
+-- toggle terminal in different splits
+vim.keymap.set("n", "<leader>tf", ":ToggleTerm direction=float<CR>", { silent = true })
+vim.keymap.set("n", "<leader>th", ":ToggleTerm size=10 direction=horizontal<CR>", { silent = true })
+vim.keymap.set("n", "<leader>tv", ":ToggleTerm size=80 direction=vertical<CR>", { silent = true })

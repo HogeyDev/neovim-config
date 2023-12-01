@@ -1,7 +1,3 @@
 require("kourtet.lazy")
 require("kourtet.global")
-require("kourtet.lsp")
-require("kourtet.lualine")
-require("kourtet.neotree")
 require("kourtet.remap")
-require("kourtet.treesitter")

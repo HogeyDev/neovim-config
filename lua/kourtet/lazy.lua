@@ -66,4 +66,5 @@ require("lazy").setup({
 		}
 	},
 	'tpope/vim-fugitive',
+	'akinsho/toggleterm.nvim',
 })
