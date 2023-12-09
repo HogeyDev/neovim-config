@@ -1,4 +1,13 @@
-local lsp_servers = { "lua_ls", "tsserver", "rust_analyzer", "bashls" }
+local lsp_servers = {
+	"lua_ls",
+	"tsserver",
+	"rust_analyzer",
+	"bashls",
+	"pyright",
+	"emmet_ls",
+	"html",
+	"asm_lsp",
+}
 
 require('mason').setup()
 require('mason-lspconfig').setup({

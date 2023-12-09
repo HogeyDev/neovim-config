@@ -1,10 +1,8 @@
 vim.g.mapleader = " "
 
--- makefile
-vim.keymap.set("n", "<leader>mm", ":Telescope make<CR>", { silent = true })
-
 -- neo-tree
 vim.keymap.set("n", "<leader>o", ":Neotree focus<CR>", { silent = true })
+vim.keymap.set("n", "<leader>e", ":Neotree close<CR>", { silent = true })
 
 -- nvim source
 vim.keymap.set("n", "<leader>so", ":source %<CR>", { silent = true })
@@ -23,4 +21,8 @@ vim.keymap.set("n", "<leader>th", ":ToggleTerm size=10 direction=horizontal<CR>"
 vim.keymap.set("n", "<leader>tv", ":ToggleTerm size=80 direction=vertical<CR>", { silent = true })
 
 -- telescope
-vim.keymap.set("n", "<leader>f", ":Telescope live_grep<CR>", { silent = true })
+vim.keymap.set("n", "<leader>mm", ":Telescope make<CR>", { silent = true })
+vim.keymap.set("n", "<leader>ff", ":Telescope live_grep<CR>", { silent = true })
+vim.keymap.set("n", "<leader>fr", ":Telescope lsp_references<CR>", { silent = true })
+vim.keymap.set("n", "<leader>fd", ":Telescope lsp_definitions<CR>", { silent = true })
+vim.keymap.set("n", "<leader>fb", ":Telescope buffers<CR>", { silent = true })

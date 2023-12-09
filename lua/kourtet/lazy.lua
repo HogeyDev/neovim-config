@@ -17,6 +17,9 @@ require("lazy").setup({
 	"folke/neodev.nvim",
 	"dracula/vim",
 	"navarasu/onedark.nvim",
+	"ellisonleao/gruvbox.nvim",
+	"sainnhe/gruvbox-material",
+	"shaunsingh/nord.nvim",
 	{
 		"nvim-neo-tree/neo-tree.nvim",
 		branch = "v3.x",
@@ -76,5 +79,8 @@ require("lazy").setup({
 	{
 	'nvim-telescope/telescope.nvim', tag = '0.1.4',
 		dependencies = { 'nvim-lua/plenary.nvim' }
-	}
+	},
+	'm4xshen/autoclose.nvim',
+	'rebelot/heirline.nvim',
+	'preservim/nerdcommenter',
 })
